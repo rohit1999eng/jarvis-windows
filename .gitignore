@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+.env
+.env.*
+
+# Ollama / local AI models
+ollama-models/
+*.gguf
+*.bin
+*.safetensors
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# Audio / recordings
+recordings/
+*.wav
+*.mp3
+*.flac
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Piper voice models
+voices/*.onnx
+voices/*.onnx.json

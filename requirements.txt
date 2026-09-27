@@ -1,0 +1,16 @@
+sounddevice
+numpy
+requests
+psutil
+openwakeword
+faster-whisper
+piper-tts
+duckduckgo-search
+
+# --- Windows notes ---
+# piper-tts's official wheels are Linux-first; pip install piper-tts alone
+# may fail or run into a missing piper-phonemize dependency on Windows.
+# If `pip install -r requirements.txt` errors out on piper-tts, run instead:
+#   pip install piper-phonemize
+#   pip install piper-tts --no-deps
+# (see README.md "Windows setup" section for the full fallback path)
